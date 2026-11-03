@@ -1,5 +1,7 @@
 # 《AI Agent》配套 Skills
 
+[English skills / 英文版](../skills-en/README.md)
+
 本书 10 章内容蒸馏为 22 个开发 skill。每个 skill 是一个按需触发的操作知识包：当你的开发任务匹配其触发条件时会被自动加载，提供该领域的决策框架、实践模式与书中实验代码的入口。
 
 ## 安装
