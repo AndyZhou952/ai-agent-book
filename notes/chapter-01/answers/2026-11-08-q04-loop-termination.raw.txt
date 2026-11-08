@@ -1,0 +1,4 @@
+4. 比如说，调用这个工具，可能它一直有同样的error。然后模型可能出现幻觉，调用了不存在的工具。然后可能因为context window compression，导致中间的一些状态丢失。然后也可能，比如说，那个任务本身在目前的情况下就是做不出来的。然后我们在这个时候一般常见的做法就是设置一个最大的迭代次数的停止条件。然后我们可能有一个constraint去检测重复的调用。这个重复调用主要是看工具还有那个参数、parameter的传入物是不是一致的，或者非常类似？and then after we have a dash, we can escalate to a human loop.
+
+
+

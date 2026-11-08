@@ -44,6 +44,14 @@ for d in skills/*/; do ln -sfn "$(pwd)/${d%/}" ~/.claude/skills/"$(basename $d)"
 | `multi-agent-design` | 单 Agent 还是多 Agent、协作拓扑 | ch10 | `chapter10/generative-agents/`、`parallel-web-research/` |
 | `loop-engineering` | Agent 过早宣称完成、设计验证器 | ch10 | `chapter5/paper-to-ppt/`、`video-edit/` |
 
+## 个人学习流程
+
+| Skill | 用途 | 笔记入口 |
+|---|---|---|
+| [study-notes](study-notes/SKILL.md) | 保存重点、口述答案原稿与整理版、自由笔记和手写附件，按需制作 Anki 卡片 | [notes/README.md](../notes/README.md) |
+
+`study-notes` 是个人学习工作流，模板位于 `notes/templates/`；不属于上述 22 个书中开发知识 skill。
+
 ## 约定
 
 - 每个 skill 是单文件 `SKILL.md`，自包含，可独立使用

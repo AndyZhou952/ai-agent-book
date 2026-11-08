@@ -1,0 +1,4 @@
+interface:
+  display_name: "学习笔记"
+  short_description: "保存学习重点与手写笔记，保留口述原稿、整理思考题答案并制作 Anki 复习卡片"
+  default_prompt: "使用 $study-notes 保存我的学习笔记，保留原始输入并整理答案，只为我指定的内容生成 Anki 卡片。"

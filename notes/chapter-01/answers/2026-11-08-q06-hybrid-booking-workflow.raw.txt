@@ -1,0 +1,4 @@
+6. 我个人觉得，应该是一种混合模式。Because user input，他可能发送的query是——query实在是过多了，过于繁杂。And then there might be some drill breaking and stuff like that. 嗯，我觉得主要是有一个agent，它可以尝试把这一些东西转化成一些rules。然后我们可能有类似的这一些工具调用，说，不用说，呃，返还款的触发条件或者上限，然后这个agent需要尝试把这些东西翻译成，呃，这个tools能够理解的形式之类的。它应该是一种混合的方式。
+
+
+
